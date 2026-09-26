@@ -14,8 +14,17 @@
         button { width: 100%; padding: 12px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; font-size: 18px; cursor: pointer; transition: background 0.3s; }
         button:hover { background-color: #45a049; }
     </style>
+    
+    <!-- Prevent viewing this page from browser cache history -->
+    <script>
+        function preventBack() {
+            window.history.forward(); 
+        }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>
 </head>
-<body>
+<body onload="preventBack();">
 
 <div class="container">
     <h2>تسجيل الحضور</h2>
