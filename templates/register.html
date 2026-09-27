@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تسجيل الحضور</title>
+    <title>Register Attendance</title>
     <style>
         body { font-family: Arial, sans-serif; background-color: #f4f7f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
         .container { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
@@ -25,9 +25,10 @@
     </script>
 </head>
 <body onload="preventBack();">
-
+<!-- This is a simple registration page -->
+ <!-- Build your own style from here -->
 <div class="container">
-    <h2>تسجيل الحضور</h2>
+    <h2>Register Attendance</h2>
     <form action="/submit" method="POST">
         <!-- Pass the token hidden from the user so the server can validate it. -->
         <input type="hidden" name="token" value="{{ token }}">
