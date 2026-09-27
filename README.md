@@ -22,8 +22,8 @@ This system is built with high security and strict constraints to prevent cheati
 ├── 📄 students_attendance.csv  # (Auto-generated) The default output data file
 │
 └── 📁 templates/
-    ├── 📄 index.html           # The main page displaying the dynamic QR code
-    └── 📄 register.html        # The form submitted by the students
+│   ├── 📄 index.html           # The main page displaying the dynamic QR code
+│   └── 📄 register.html        # The form submitted by the students
 └── 📁 Static/
     └── 📄 demo.gif             # any additinal files for html file customization 
 ```
