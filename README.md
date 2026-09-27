@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="RP_Registration.ico" alt="Centered image" width="300">
+</p>
+
 # Local Network Registration System
 
 A secure, lightweight, and offline-first Python web application designed for university professors and instructors to seamlessly register student attendance using dynamic QR codes over a Local Area Network (LAN) or a PC Wireless Hotspot.
