@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="RP_Registration.ico" alt="Centered image" width="300">
+  <img src="RP_Registration_new.ico" alt="Centered image" width="300">
 </p>
 
 # Local Network Registration System
