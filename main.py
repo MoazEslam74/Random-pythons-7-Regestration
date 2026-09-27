@@ -80,7 +80,7 @@ def get_startup_settings():
     user_data = {"time": 60, "ssid": "", "save_file": ""}
 
     root = tk.Tk()
-    root.title("Local System Settings")
+    root.title("Local Registration System Settings")
     
     ws, hs = root.winfo_screenwidth(), root.winfo_screenheight()
     w, h = 350, 320
