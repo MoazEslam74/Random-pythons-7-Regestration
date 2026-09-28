@@ -26,7 +26,8 @@ def resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 template_dir = resource_path("templates")
-app = Flask(__name__, template_folder=template_dir)
+static_dir = resource_path("static") 
+app = Flask(__name__, template_folder=template_dir, static_folder=static_dir) 
 
 # --------- Global Variables & Save Config ----------
 TOKEN_VALIDITY_SECONDS = 60 

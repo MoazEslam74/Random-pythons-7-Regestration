@@ -3,3 +3,9 @@
 *.json
 *.txt
 *.mp4
+
+#build files
+build/
+build_exe.py
+*.spec
+dist/
